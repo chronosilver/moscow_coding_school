@@ -1,0 +1,57 @@
+@import url(reset.css);
+
+.page {
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.header {
+  background-color: #fe1a19;
+  padding: 20px;
+}
+h1,
+h2 {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 23px;
+}
+
+.title {
+  color: white;
+}
+footer {
+  background-color: #fe1a19;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 23px;
+  padding: 20px;
+}
+
+.left,
+.center,
+.right {
+  border: 5px solid #e5e000;
+  border-radius: 30px;
+  display: inline-block;
+  width: 400px;
+  height: 800px;
+  box-sizing: border-box;
+  padding: 33px;
+  margin-right: 50px;
+}
+.right {
+  margin-right: 0;
+}
+
+h2 {
+  margin-bottom: 41px;
+}
+
+.container {
+  margin: 0 auto;
+}
