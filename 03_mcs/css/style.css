@@ -32,9 +32,7 @@ footer {
   padding: 20px;
 }
 
-.left,
-.center,
-.right {
+.column {
   border: 5px solid #e5e000;
   border-radius: 30px;
   display: inline-block;
@@ -43,8 +41,10 @@ footer {
   box-sizing: border-box;
   padding: 33px;
   margin-right: 50px;
+  margin-top: 52px;
+  margin-bottom: 52px;
 }
-.right {
+.column:last-child {
   margin-right: 0;
 }
 
@@ -53,5 +53,14 @@ h2 {
 }
 
 .container {
+  display: flex;
+  justify-content: space-around;
   margin: 0 auto;
+}
+
+.main {
+  padding: 52px 70px;
+}
+ul {
+  list-style: none;
 }
