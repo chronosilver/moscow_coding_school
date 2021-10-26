@@ -41,8 +41,6 @@ footer {
   box-sizing: border-box;
   padding: 33px;
   margin-right: 50px;
-  margin-top: 52px;
-  margin-bottom: 52px;
 }
 .column:last-child {
   margin-right: 0;
@@ -56,6 +54,8 @@ h2 {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
+  margin-top: 52px;
+  margin-bottom: 52px;
 }
 
 .main {
