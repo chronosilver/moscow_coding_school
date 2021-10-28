@@ -1,0 +1,139 @@
+@import url(reset.css);
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 28, 75px;
+  box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  background-color: white;
+}
+
+.logo {
+  color: #e50043;
+  font-size: 50px;
+  padding: 50px;
+}
+nav {
+  display: flex;
+}
+a {
+  color: #e50043;
+  font-size: 50px;
+}
+
+ul {
+  display: flex;
+}
+
+.link {
+  padding: 50px 25px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100wh;
+}
+
+.main {
+  margin-top: 150px;
+}
+.pic {
+  background-image: url(../img/evian_origins_logo.png);
+  width: 1440px;
+  height: 950px;
+  display: flex;
+  padding-top: 150px;
+}
+
+.title {
+  font-size: 100px;
+  margin: auto;
+  color: #e50043;
+}
+.about-our_water {
+  border: 3px solid #f8bfc7;
+  border-radius: 20px;
+  padding: 24px;
+  margin: 150px auto;
+  width: 1400px;
+}
+
+.flex-bottle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-center {
+  padding-top: 42px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  border: 3px solid #f8bfc7;
+  border-radius: 20px;
+  margin: 156px auto 150px;
+  width: 1400px;
+  padding: 30px 80px;
+}
+.glass {
+  margin-left: 80px;
+}
+.no-name {
+}
+
+.flex-container-text {
+  align-self: center;
+  margin: 30px 30px 30px 80px;
+}
+footer {
+  background-color: #f8bfc7;
+}
+.footer {
+  color: white;
+  font-size: 50px;
+  padding: 50px;
+}
+
+/* Animations 
+
+.small {
+  height: 50px;
+}
+
+.small .logo {
+  font-size: 2.6em;
+  margin-top: 5px;
+}
+
+.cf:before,
+.cf:after {
+  content: ' ';
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+header,
+.logo {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+*/
