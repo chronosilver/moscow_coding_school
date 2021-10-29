@@ -14,7 +14,7 @@ body {
   top: 0;
   display: flex;
   justify-content: space-between;
-  width: 1440px;
+  width: 100%;
   background-color: white;
 }
 
@@ -47,11 +47,13 @@ ul {
 
 .main {
   margin-top: 150px;
+  width: 100%;
 }
 .pic {
   background-image: url(../img/evian_origins_logo.png);
-  width: 1440px;
-  height: 950px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   display: flex;
   padding-top: 150px;
 }
@@ -61,6 +63,10 @@ ul {
   margin: auto;
   color: #e50043;
 }
+
+.woter {
+  display: flex;
+}
 .about-our_water {
   border: 3px solid #f8bfc7;
   border-radius: 20px;
@@ -69,29 +75,39 @@ ul {
   width: 1040px;
 }
 
-.flex-bottle {
+.water__flex-bottle {
   display: flex;
+  margin: 0 auto;
+  width: 1440px;
   justify-content: space-around;
 }
 
-.text-center {
+.water__discription {
   padding-top: 42px;
   text-align: center;
 }
 
-.flex-container {
+.electrolits__flex-container {
   display: flex;
   border: 3px solid #f8bfc7;
   border-radius: 20px;
-  margin: 156px auto 150px;
+  margin: 0 auto;
   width: 1040px;
   padding: 30px 80px;
+}
+
+.about {
+  padding: 150px 0;
 }
 .glass {
   margin-left: 80px;
 }
 
-.flex-container-text {
+.electrolits {
+  padding: 150px 0;
+}
+
+.electrolits__discription {
   align-self: center;
   margin: 30px 30px 30px 80px;
 }
