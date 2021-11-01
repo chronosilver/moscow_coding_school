@@ -1,0 +1,60 @@
+@import url(reset.css);
+
+.header {
+  background-color: #ffe138;
+  height: 160px;
+  width: 100%;
+  display: flex;
+}
+.title {
+  text-transform: uppercase;
+  margin: auto;
+}
+.meta__img {
+  width: 400px;
+  height: 600px;
+}
+.click__img {
+  width: 400px;
+  height: 600px;
+}
+
+.float__img {
+  width: 400px;
+  height: 600px;
+}
+
+.img3 {
+  width: 400px;
+  height: 600px;
+  background-image: url(../img/Float\Shelf.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.meta,
+.click,
+.float {
+}
+
+.container {
+  margin: 70px;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.container__item {
+  width: 400px;
+  margin-right: 50px;
+}
+.container__item:last-child {
+  margin: 0;
+}
+.footer__text {
+  margin: auto;
+}
+.footer {
+  display: flex;
+  padding: 52px;
+  background-color: #ffe138;
+}
