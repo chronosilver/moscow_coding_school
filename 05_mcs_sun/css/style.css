@@ -38,5 +38,5 @@
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;*/
-  animation: rotate, linear, infinite, 4s;
+  animation: rotate linear infinite 4s;
 }
