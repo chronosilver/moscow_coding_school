@@ -34,8 +34,9 @@
   left: 50%;
   margin-top: -200px;
   margin-left: -200px;
-  animation-name: rotate;
+  /*animation-name: rotate;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: linear;*/
+  animation: rotate, linear, infinite, 4s;
 }
