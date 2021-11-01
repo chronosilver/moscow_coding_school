@@ -25,7 +25,7 @@
 .earth {
   width: 400px;
   height: 400px;
-  background-image: url(https://cdn.pixabay.com/photo/2019/07/24/18/58/earth-4360974_960_720.png);
+  /*background-image: url(https://cdn.pixabay.com/photo/2019/07/24/18/58/earth-4360974_960_720.png);*/
   background-size: 50px;
   background-repeat: no-repeat;
   background-position: right top;
@@ -38,5 +38,11 @@
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;*/
+  animation: rotate linear infinite 4s;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
   animation: rotate linear infinite 4s;
 }
