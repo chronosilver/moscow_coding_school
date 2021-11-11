@@ -1,5 +1,8 @@
 @import url(reset.css);
 
+html {
+  font-size: 20px;
+}
 .header {
   background-color: #ffe138;
   height: 160px;
@@ -11,31 +14,39 @@
   margin: auto;
 }
 .meta__img {
-  width: 400px;
-  height: 600px;
+  background-image: url(../img/Meta\Side\Table.png);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 100%;
 }
 .click__img {
-  width: 400px;
-  height: 600px;
+  background-image: url(../img/Click\Shelf.png);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 100%;
 }
 
 .float__img {
-  width: 400px;
-  height: 600px;
+  background-image: url(../img/Float\Shelf.png);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 100%;
 }
 
-.img3 {
-  width: 400px;
-  height: 600px;
-  background-image: url(../img/Float\Shelf.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
 .meta,
 .click,
 .float {
+  border: 3px solid black;
 }
 
+.text {
+  padding: 30px 33px;
+  font-size: 1em;
+}
+h2 {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
 .container {
   margin: 70px;
   justify-content: space-around;
@@ -44,8 +55,8 @@
 }
 
 .container__item {
-  width: 400px;
   margin-right: 50px;
+  width: calc((100%-100px) / 3);
 }
 .container__item:last-child {
   margin: 0;

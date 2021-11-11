@@ -23,7 +23,7 @@
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
   opacity: 0;
-  transition: opacity 1s cubic-bezier(0.45, 0, 0.55, 1);
+  transition: all 1s cubic-bezier(0.45, 0, 0.55, 1);
 }
 
 .placeholder p {
@@ -39,4 +39,8 @@
 .container:hover .placeholder {
   opacity: 1;
   color: lawngreen;
+}
+
+.container:hover .container {
+  top: 100px;
 }
