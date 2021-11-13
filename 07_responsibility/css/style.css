@@ -14,20 +14,20 @@ html {
   margin: auto;
 }
 .meta__img {
-  background-image: url(../img/Meta\Side\Table.png);
+  background-image: url(../img/MetaSideTable.png);
   background-size: cover;
   background-position: center;
   padding-bottom: 100%;
 }
 .click__img {
-  background-image: url(../img/Click\Shelf.png);
+  background-image: url(../img/ClickShelf.png);
   background-size: cover;
   background-position: center;
   padding-bottom: 100%;
 }
 
 .float__img {
-  background-image: url(../img/Float\Shelf.png);
+  background-image: url(../img/FloatShelf.png);
   background-size: cover;
   background-position: center;
   padding-bottom: 100%;
