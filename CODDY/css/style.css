@@ -1,0 +1,9 @@
+@import url(reset.css);
+
+body {
+  color: black;
+}
+
+li:first-of-type + li {
+  color: red;
+}
