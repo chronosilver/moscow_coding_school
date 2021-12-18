@@ -3,6 +3,7 @@
 .header {
   background-color: #0000ff;
   height: 100px;
+  min-width: 100%;
 }
 .header a {
   display: inline-block;
@@ -29,16 +30,18 @@ p {
   margin: auto;
   font-family: Helvetica;
   font-style: normal;
-  font-weight: bold;
-  font-size: 50px;
-  line-height: 57px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
   text-align: center;
 }
 .main {
   width: 100vw;
 }
 .container {
-  margin: 20px 22px;
+  /*margin: 20px 22px;*/
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 100vw;
   justify-content: space-around;
 }
@@ -66,11 +69,24 @@ p {
   }
 
   .item {
-    width: calc((100%-20px) / 2);
+    /* width: calc((100%-20px) / 2);*/
+    width: 600px;
+    height: 300px;
   }
   .container {
     margin: 102px auto;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .item p {
+    font-family: Helvetica;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: center;
   }
 }
 
