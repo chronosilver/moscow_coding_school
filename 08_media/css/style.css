@@ -42,7 +42,7 @@ p {
   /*margin: 20px 22px;*/
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 100vw;
+  max-width: 1310px;
   justify-content: space-around;
 }
 

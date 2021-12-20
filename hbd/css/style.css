@@ -1,5 +1,5 @@
 @import url(reset.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Zen+Kurenaido&display=swap');
 @-webkit-keyframes text-shadow-pop-tr {
   0% {
     text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555,
@@ -98,8 +98,7 @@
     opacity: 1;
   }
 }
-* {
-}
+
 body {
   width: 100%;
   background: rgb(25, 161, 251);
@@ -117,8 +116,8 @@ h1 {
   margin: 20px 50px;
   text-align: left;
   color: aqua;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Russo One', sans-serif;
+  font-family: 'Zen Kurenaido', sans-serif;
 }
 
 .text-shadow-pop-tr {
