@@ -52,4 +52,5 @@
 
 /* Custom styles */
 .flex-container {
+  display: flex;
 }
