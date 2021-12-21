@@ -91,14 +91,9 @@ body {
   flex: 10;
 }
 
-.slide.active h3 {
-  opacity: 1;
-  transition: opacity 0.8s ease-in;
-}
-
 .slide.active a {
   opacity: 1;
-  transition: opacity 0.8s ease-in;
+  transition: opacity 1.7s ease-in;
 }
 
 .aboutme {
