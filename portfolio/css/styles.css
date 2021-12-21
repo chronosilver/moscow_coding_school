@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url(reset.css);
 
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
+.header {
+  margin: 20px 0 0 0;
+}
 .menu {
   margin: 0;
   background-color: black;
@@ -16,15 +23,22 @@
   align-items: center;
   margin: 0 30px;
 }
-.about {
-  margin-right: 40px;
+
+.menu li {
+  margin: 0 40px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
 }
 body {
   font-family: 'Muli', sans-serif;
-  width: 100wh;
+  line-height: 1.7;
+  margin: 0;
 }
 
-.body {
+.slider {
   overflow: hidden;
   margin: 0;
   /*background: paleturquoise;*/
@@ -37,7 +51,7 @@ body {
 .container {
   width: 100%;
   display: flex;
-  padding: 0 20px;
+  padding: 20px 20px;
 }
 
 .slide {
@@ -64,6 +78,8 @@ body {
 }
 
 .slide a {
+  color: white;
+  text-decoration: none;
   position: absolute;
   font-size: 24px;
   bottom: 20px;
@@ -84,4 +100,15 @@ body {
 .slide.active a {
   opacity: 1;
   transition: opacity 0.8s ease-in;
+}
+
+.aboutme {
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  margin: 0 30px 50px;
+}
+
+.aboutme p {
+  padding: 50px;
 }
