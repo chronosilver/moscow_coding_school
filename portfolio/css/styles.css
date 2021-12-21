@@ -14,6 +14,10 @@
   list-style: none;
   justify-content: space-between;
   align-items: center;
+  margin: 0 30px;
+}
+.about {
+  margin-right: 40px;
 }
 body {
   font-family: 'Muli', sans-serif;
@@ -23,7 +27,7 @@ body {
 .body {
   overflow: hidden;
   margin: 0;
-  background: paleturquoise;
+  /*background: paleturquoise;*/
   max-height: 100vh;
   display: flex;
   justify-content: center;
@@ -59,11 +63,25 @@ body {
   opacity: 0;
 }
 
+.slide a {
+  position: absolute;
+  font-size: 24px;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
 .slide.active {
   flex: 10;
 }
 
 .slide.active h3 {
   opacity: 1;
-  transition: opacity 0.3s ease-in;
+  transition: opacity 0.8s ease-in;
+}
+
+.slide.active a {
+  opacity: 1;
+  transition: opacity 0.8s ease-in;
 }
