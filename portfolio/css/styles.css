@@ -50,6 +50,7 @@ body {
   width: 100%;
   display: flex;
   padding: 20px 20px;
+  scroll-snap-type: y mandatory;
 }
 
 .slide {
@@ -64,6 +65,7 @@ body {
   background-repeat: no-repeat;
   transition: all 500ms ease-in-out;
   position: relative;
+  scroll-snap-align: start;
 }
 
 .slide h3 {
