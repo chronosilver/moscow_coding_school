@@ -40,7 +40,6 @@ body {
 .slider {
   overflow: hidden;
   margin: 0;
-  /*background: paleturquoise;*/
   max-height: 100vh;
   display: flex;
   justify-content: center;
@@ -93,7 +92,7 @@ body {
 
 .slide.active a {
   opacity: 1;
-  transition: opacity 1.7s ease-in;
+  transition: opacity 1s ease-in;
 }
 
 .aboutme {
