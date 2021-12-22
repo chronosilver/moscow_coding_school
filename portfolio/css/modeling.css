@@ -1,6 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url(reset.css);
 
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -37,7 +62,71 @@ body {
   line-height: 1.7;
   margin: 0;
 }
+.about {
+  font-size: 25px;
+  margin: 20px 30px;
+  text-align: center;
+}
+.item {
+  margin: 20px 30px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  border-radius: 20px;
+  flex-wrap: wrap;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
 
+.text {
+  max-width: 40%;
+  padding: 40px 40px 40px;
+}
+.texth a {
+  color: #3fdaf5;
+  text-decoration: none;
+}
+.video {
+  margin: 40px 40px 0;
+  flex: 2;
+}
+
+.container {
+  padding: 40px;
+  display: flex;
+}
+
+.texth {
+  padding-left: 40px;
+}
+
+.hbd {
+  display: flex;
+  margin: 20px 30px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  border-radius: 20px;
+}
+.texthbd {
+  padding: 60px 0 0 40px;
+  align-self: flex-start;
+  width: 40%;
+  order: -1;
+}
+.hbd .video {
+  height: 500px;
+  width: 600px;
+  padding-bottom: 40px;
+}
+/* Animations */
+
+.slide-in-top {
+  -webkit-animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .menu {
     margin: 0 10px;
