@@ -37,3 +37,36 @@ body {
   line-height: 1.7;
   margin: 0;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .menu {
+    margin: 0 10px;
+  }
+
+  .header {
+    margin: 10px 0 0 0;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .slide {
+    margin: 3px;
+  }
+  .slide.active {
+    flex: 17;
+  }
+  .menu li {
+    margin: 0 15px;
+  }
+
+  .aboutme {
+    margin: 0 10px;
+  }
+
+  .aboutme p {
+    padding: 20px;
+    text-align: center;
+  }
+}

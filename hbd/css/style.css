@@ -158,3 +158,20 @@ h1 {
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: focus-in-contract-bck 15s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
+
+a {
+  text-decoration: none;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  right: 230px;
+  color: #ff00e0;
+  margin-top: 150px;
+  opacity: 0;
+  transition: opacity ease-in 1s;
+}
+
+a:hover {
+  opacity: 1;
+}

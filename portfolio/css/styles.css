@@ -65,7 +65,7 @@ body {
   background-repeat: no-repeat;
   transition: all 500ms ease-in-out;
   position: relative;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 }
 
 .slide h3 {

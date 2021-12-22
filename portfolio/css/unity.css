@@ -37,3 +37,75 @@ body {
   line-height: 1.7;
   margin: 0;
 }
+
+.item {
+  margin: 20px 30px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.text {
+  max-width: 60%;
+  margin: 0 30px;
+}
+
+.video {
+  margin: 40px;
+}
+
+.game2 .text {
+  order: -1;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .menu {
+    margin: 0 10px;
+  }
+
+  .header {
+    margin: 10px 0 0 0;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .slide {
+    margin: 3px;
+  }
+  .slide.active {
+    flex: 17;
+  }
+  .menu li {
+    margin: 0 15px;
+  }
+
+  .aboutme {
+    margin: 0 10px;
+  }
+
+  .aboutme p {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .item {
+    margin: 10px;
+    display: block;
+  }
+
+  .video {
+    margin: 15px 15px 0;
+    width: 325px;
+  }
+
+  .text {
+    text-align: center;
+    margin: 0 15px 15px;
+    max-width: 325px;
+    padding-bottom: 10px;
+  }
+}
