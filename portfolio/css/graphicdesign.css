@@ -37,7 +37,60 @@ body {
   line-height: 1.7;
   margin: 0;
 }
+.about {
+  font-size: 25px;
+  margin: 20px 30px;
+  text-align: center;
+}
+.item1 {
+  display: flex;
+}
 
+.item {
+  padding: 40px;
+  margin: 20px 30px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.item2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.img {
+  border: 2px solid white;
+}
+
+.img2 {
+  margin-bottom: 40px;
+}
+.poster2 {
+  margin-left: 20px;
+}
+
+.text {
+  align-self: flex-start;
+  padding-left: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.text2 {
+  width: 630px;
+  align-self: flex-start;
+}
+.text3 {
+  padding-bottom: 20px;
+}
+.img3 {
+  max-width: 1300px;
+}
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .menu {
     margin: 0 10px;
