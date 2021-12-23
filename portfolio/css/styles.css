@@ -219,7 +219,7 @@ body {
   }
   .swiper {
     /* width: 1390px;*/
-    width: 500px;
+    width: 100vw;
     height: 80%;
     margin: 20px 0 40px 0;
   }
