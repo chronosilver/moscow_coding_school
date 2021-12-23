@@ -88,11 +88,16 @@ body {
   opacity: 0;
 }
 
-.slide.active {
+/*.slide.active {
   flex: 10;
 }
 
 .slide.active a {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+*/
+.swiper-slide-active a {
   opacity: 1;
   transition: opacity 1s ease-in;
 }
@@ -126,7 +131,8 @@ body {
 }
 
 .swiper {
-  width: 1390px;
+  /* width: 1390px;*/
+  width: calc(100%-20px);
   height: 80%;
   margin: 20px 0 40px 0;
 }
