@@ -222,8 +222,10 @@ body {
   .swiper-wrapper {
     width: 100%;
   }
+
+  /*
   .swiper-slide {
     margin-right: 10px !important;
-  }
+  }*/
 }
 /* swiper-wrapper - container, swiper mySwiper - slider swiper-slide - slide swiper-slide*/
