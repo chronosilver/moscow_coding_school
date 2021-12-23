@@ -3,10 +3,10 @@ const downBtn = document.querySelector('.down-button')
 const sidebar = document.querySelector('.sidebar')
 const mainSlide = document.querySelector('.main-slide')
 const slidesCount = mainSlide.querySelectorAll('div').length
-const container = document.querySelectorAll('.container')
+const container = document.querySelector('.container')
 
 let activeSlideIndex = 0
-sidebar.style.top = `-${slidesCount - 1 * 100}`
+sidebar.style.top = `-${(slidesCount - 1) * 100}vh`
 
 upBtn.addEventListener('click', () => {
   changeSlide('up')
@@ -30,7 +30,7 @@ function changeSlide(direction) {
   }
   const height = container.clientHeight
 
-  mainSlide.style.transform = `translateY(-${activeSlideIndex * height})`
+  mainSlide.style.transform = `translateY(-${activeSlideIndex * height}px)`
 
-  sidebar.style.transform = `translateY(${activeSlideIndex * height})`
+  sidebar.style.transform = `translateY(${activeSlideIndex * height}px)`
 }
