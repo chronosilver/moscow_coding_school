@@ -23,6 +23,7 @@ function Add() {
     slides.forEach((slide) => {
       //slide.classList.remove('active')
       slide.classList.add('swiper-slide')
+      //slide.setAttribute('style', 'margin-right: 10px')
     })
   }
 }

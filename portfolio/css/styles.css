@@ -222,7 +222,8 @@ body {
   .swiper-wrapper {
     width: 100%;
   }
-
+  .swiper-slide {
+  }
   /*
   .swiper-slide {
     margin-right: 10px !important;
