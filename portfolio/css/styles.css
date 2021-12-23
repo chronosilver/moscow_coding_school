@@ -186,7 +186,7 @@ body {
     margin: 3px;
   }
   .slide.active {
-    flex: 17;
+    flex: 10;
   }
   .menu li {
     margin: 0 15px;
@@ -201,13 +201,13 @@ body {
     text-align: center;
   }
 
-  .swiper-slide-active a {
+  /*.swiper-slide-active a {
     opacity: 1;
     transition: opacity 1s ease-in;
   }
   .swiper-slide-active {
     flex: 10;
-  }
+  }*/
   html,
   body {
     position: relative;
@@ -221,6 +221,9 @@ body {
   }
   .swiper-wrapper {
     width: 100%;
+  }
+  .swiper-slide {
+    margin-right: 10px !important;
   }
 }
 /* swiper-wrapper - container, swiper mySwiper - slider swiper-slide - slide swiper-slide*/

@@ -21,7 +21,7 @@ function Add() {
     container.classList.add('swiper-wrapper')
     slider.classList.add('swiper', 'mySwiper')
     slides.forEach((slide) => {
-      slide.classList.remove('active')
+      //slide.classList.remove('active')
       slide.classList.add('swiper-slide')
     })
   }
