@@ -36,7 +36,7 @@ body {
   line-height: 1.7;
   margin: 0;
 }
-
+/*
 .slider {
   overflow: hidden;
   margin: 0;
@@ -45,7 +45,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+*/
 .container {
   width: 100%;
   display: flex;
@@ -218,6 +218,9 @@ body {
     width: 500px;
     height: 80%;
     margin: 20px 0 40px 0;
+  }
+  .swiper-wrapper {
+    width: 100%;
   }
 }
 /* swiper-wrapper - container, swiper mySwiper - slider swiper-slide - slide swiper-slide*/
