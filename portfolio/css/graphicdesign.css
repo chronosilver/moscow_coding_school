@@ -3,6 +3,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
   scroll-behavior: smooth;
@@ -37,60 +39,135 @@ body {
   line-height: 1.7;
   margin: 0;
 }
-.about {
-  font-size: 25px;
-  margin: 20px 30px;
-  text-align: center;
+.height {
+  height: 100vh;
+  width: 100vw;
 }
-.item1 {
-  display: flex;
+/* JS */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
 }
 
-.item {
-  padding: 40px;
-  margin: 20px 30px;
-  background-color: black;
-  color: white;
-  align-items: center;
+.container {
   border-radius: 20px;
+  margin: 20px 30px 30px 30px;
+  position: relative;
+  overflow: hidden;
+  /*width: 100vw;*/
+  height: 100%;
 }
 
-.item2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.sidebar {
+  height: 100%;
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
 }
-.img {
+
+.sidebar > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/*.sidebar h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
+*/
+.main-slide {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 40%;
+  width: 60%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.main-slide > div {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px;
+}
+
+button:hover {
+  color: #222;
+}
+
+button:focus {
+  outline: none;
+}
+
+.container .controls button {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  z-index: 100;
+}
+
+.container .controls .down-button {
+  transform: translateX(-100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.container .controls .up-button {
+  transform: translateY(-100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.aboutContainer {
+  display: flex;
+}
+
+.aboutContainer h1 {
+  margin: auto;
+}
+
+.text h1 {
+  font-size: 25px;
+}
+.text {
+  margin: 50px;
+}
+.main-slide-item {
+  display: flex;
+  background-color: black;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.main-slide-item img {
+  align-self: center;
+  /*margin: auto;*/
   border: 2px solid white;
 }
 
-.img2 {
-  margin-bottom: 40px;
-}
-.poster2 {
-  margin-left: 20px;
-}
-
-.text {
-  align-self: flex-start;
-  padding-left: 40px;
-}
-
-a {
-  text-decoration: none;
-  color: aqua;
-}
-
-.text2 {
-  width: 630px;
-  align-self: flex-start;
-}
-.text3 {
-  padding-bottom: 20px;
-}
-.img3 {
-  max-width: 1300px;
-}
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .menu {
     margin: 0 10px;
