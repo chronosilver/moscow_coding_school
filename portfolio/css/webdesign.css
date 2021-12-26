@@ -9,7 +9,7 @@ html {
 }
 
 .header {
-  margin: 20px 0 0 0;
+  margin: 20px 0 5px 0;
 }
 .menu {
   background-color: black;
@@ -36,6 +36,12 @@ body {
   font-family: 'Muli', sans-serif;
   line-height: 1.7;
   margin: 0;
+}
+
+.frame {
+  width: 100vw;
+  height: 1200px;
+  /*margin: 0 30px;*/
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
