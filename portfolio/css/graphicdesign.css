@@ -1,6 +1,56 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url(reset.css);
 
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -198,5 +248,59 @@ button:focus {
   .aboutme p {
     padding: 20px;
     text-align: center;
+  }
+
+  .container {
+    display: none;
+  }
+
+  .itemMobile {
+    margin: 10px 10px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    border-radius: 20px;
+    flex-wrap: wrap;
+  }
+
+  .textm {
+    padding: 20px;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .bc,
+  .pbpm,
+  .mara,
+  .yegom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .bc img,
+  .mara img,
+  .yegom img,
+  .pbpm img {
+    margin-bottom: 20px;
+    border: 2px solid white;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .slide-in-left {
+    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+      both;
+    animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+  .slide-in-right {
+    -webkit-animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+      both;
+    animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   }
 }

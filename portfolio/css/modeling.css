@@ -98,6 +98,10 @@ body {
   display: flex;
 }
 
+.img {
+  display: flex;
+}
+
 .texth {
   padding-left: 40px;
 }
@@ -135,7 +139,13 @@ body {
   .header {
     margin: 10px 0 0 0;
   }
+  .item {
+    margin: 10px;
+  }
 
+  .hbd {
+    margin: 10px;
+  }
   .container {
     padding: 10px;
   }
@@ -157,5 +167,53 @@ body {
   .aboutme p {
     padding: 20px;
     text-align: center;
+  }
+
+  .content {
+    display: block;
+  }
+
+  .text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .video {
+    width: 315px;
+    height: 170px;
+    margin: 20px 20px 0;
+  }
+  .container {
+    display: block;
+  }
+  .container img {
+    width: 250px;
+    height: 250px;
+  }
+  .img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+  }
+
+  .hbd {
+    display: block;
+  }
+
+  .hbd .video {
+    width: 315px;
+    height: 170px;
+    padding: 0;
+  }
+  .texthbd {
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+  }
+  .texth {
+    padding: 0;
+    text-align: center;
+    margin: 40px;
   }
 }
