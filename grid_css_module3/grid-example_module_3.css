@@ -1,0 +1,37 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  padding: 50px;
+}
+
+section {
+  background-color: #888;
+  color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.sect-a::after {
+  content: 'Section A';
+}
+.sect-b::after {
+  content: 'Section B';
+}
+.sect-c::after {
+  content: 'Section C';
+}
+.sect-d::after {
+  content: 'Section D';
+}
+.sect-e::after {
+  content: 'Section E';
+}
+.sect-f::after {
+  content: 'Section F';
+}
+.sect-g::after {
+  content: 'Section G';
+}

@@ -23,9 +23,7 @@ body {
   font-size: 50px;
   padding: 50px;
 }
-nav {
-  display: flex;
-}
+
 a {
   color: #e50043;
   font-size: 50px;

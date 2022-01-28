@@ -31,13 +31,54 @@ li a {
   text-decoration: none;
   color: white;
 }
+.sites a {
+  font-size: 50px;
+}
 
 body {
   font-family: 'Muli', sans-serif;
   line-height: 1.7;
   margin: 0;
 }
+.main {
+  background-color: rgb(61, 61, 61);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 30px;
+  padding: 40px;
+}
 
+.sites {
+  background-color: rgb(61, 61, 61);
+  color: white;
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  */
+  border-radius: 20px;
+  list-style: none;
+
+  margin: 30px 30px;
+  padding: 40px;
+}
+
+.sites ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.frame {
+  margin: 40px 0;
+}
+.about {
+  width: 600px;
+}
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .menu {
     margin: 0 10px;
