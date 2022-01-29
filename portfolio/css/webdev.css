@@ -31,9 +31,9 @@ li a {
   text-decoration: none;
   color: white;
 }
-.sites a {
+/*.sites a {
   font-size: 50px;
-}
+}*/
 
 body {
   font-family: 'Muli', sans-serif;
@@ -41,7 +41,7 @@ body {
   margin: 0;
 }
 .main {
-  background-color: rgb(61, 61, 61);
+  background-color: rgb(34, 12, 85);
   color: white;
   display: flex;
   flex-wrap: wrap;
@@ -54,13 +54,8 @@ body {
 }
 
 .sites {
-  background-color: rgb(61, 61, 61);
+  background-color: rgb(39, 8, 8);
   color: white;
-  /*display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  */
   border-radius: 20px;
   list-style: none;
 
@@ -68,9 +63,18 @@ body {
   padding: 40px;
 }
 
-.sites ul {
-  display: flex;
+/*.sites ul {
+  isplay: flex;
   justify-content: space-around;
+}
+*/
+
+.sites ul li {
+  display: flex;
+}
+
+li p {
+  margin: 0 50px;
 }
 
 .frame {
