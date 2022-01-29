@@ -46,7 +46,7 @@
   font-size: 20px;
   font-weight: 100;
 }
-
+.header,
 .main,
 .footer {
   width: 1200px;
@@ -93,4 +93,27 @@ span {
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
   opacity: 0.6;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .grid {
+    display: block;
+  }
+
+  .header,
+  .main,
+  .footer {
+    width: 390px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .main__item {
+    margin-bottom: 40px;
+  }
+
+  .main__item__about,
+  .main__item__price {
+    text-align: center;
+  }
 }
