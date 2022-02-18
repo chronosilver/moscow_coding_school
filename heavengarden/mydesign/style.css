@@ -5,6 +5,8 @@
 html {
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+/* ----------- grid css ----------- */
+/*
 .conatiner {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -19,12 +21,8 @@ html {
   align-self: center;
   margin-top: 20px;
 }
+*/
 
-.basket {
-  position: fixed;
-  right: 50px;
-  top: 50px;
-}
 /* animation
 
 
@@ -55,7 +53,7 @@ html {
 .placeholder:hover {
   opacity: 1;
 }
-*/
+
 .item__1,
 .item__2,
 .item__3,
@@ -65,9 +63,9 @@ html {
 .item__7,
 .item__8,
 .item__9 {
-  /*background-color: rgb(17, 0, 255);
+  background-color: rgb(17, 0, 255);
   width: 350px;
-  height: 350px;*/
+  height: 350px;
   justify-self: center;
   align-self: center;
   margin-bottom: 30px;
@@ -120,20 +118,62 @@ html {
   text-align: center;
   margin-bottom: 10px;
 }
+*/
+
+/* ----------- flex css ----------- */
+
+.header {
+  display: flex;
+}
+.logo {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.basket {
+  position: fixed;
+  right: 50px;
+  top: 50px;
+}
+
+.main {
+  margin: 0 70px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.item__1,
+.item__2,
+.item__3,
+.item__4,
+.item__5,
+.item__6,
+.item__7,
+.item__8,
+.item__9 {
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .footer {
-  padding: 10px 0;
+  display: flex;
+  margin: 40px 70px 20px;
+  padding: 20px 0;
   border-top: 4px solid black;
-  grid-column: 2/12;
+  justify-content: space-between;
+  /*grid-column: 2/12;
   grid-row: 5/6;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(10, 1fr);*/
 }
 
 .delivery {
   grid-column: 1/2;
   font-size: 18px;
   font-weight: bold;
+  align-self: center;
 }
 
 .icon {
@@ -219,7 +259,7 @@ select {
   border: none;
   /*border-radius: 0.25rem;*/
   color: white;
-  padding: 15px 32px;
+  padding: 15px 92px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
