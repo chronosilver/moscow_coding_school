@@ -35,3 +35,15 @@ section {
 .sect-g::after {
   content: 'Section G';
 }
+
+main {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: [start] 10rem [second]15rem [third] 5rem [end];
+  grid-template-rows: [start] 5rem [second] 10rem [third] 3rem [end];
+}
+
+.sect-a {
+  grid-column: start/end;
+  grid-row: 2 / end;
+}
