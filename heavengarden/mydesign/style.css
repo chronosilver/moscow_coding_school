@@ -130,6 +130,7 @@ html {
   margin: 0 auto;
 }
 .basket {
+  width: 45px;
   position: fixed;
   right: 50px;
   top: 50px;
@@ -157,6 +158,10 @@ html {
   align-items: center;
 }
 
+.item__img {
+  width: 400px;
+  height: 400px;
+}
 .footer {
   display: flex;
   margin: 40px 70px 20px;
@@ -218,6 +223,10 @@ html {
 
 .main__right {
   align-self: center;
+}
+
+.main__left {
+  width: 450px;
 }
 .main__price {
   font-size: 22px;
@@ -443,9 +452,43 @@ select {
 /* ----------- iPhone 12 pro ----------- */
 
 @media only screen and (min-device-width: 390px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  .conatiner {
-    grid-template-columns: repeat (3, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 30px;
+  .item {
+    flex-direction: column;
+    margin: 0 30px;
+  }
+
+  .main__left {
+    width: 300px;
+  }
+
+  .main__right {
+    text-align: center;
+  }
+
+  .main__left,
+  .main__right {
+    align-self: center;
+  }
+
+  .main__size {
+    margin-bottom: 20px;
+  }
+
+  .basket {
+    position: fixed;
+    right: 10px;
+    top: 80px;
+  }
+  .basket img {
+    width: 30px;
+  }
+
+  .item__img {
+    width: 270px;
+    height: 270px;
+  }
+
+  .main {
+    display: block;
   }
 }
