@@ -1,0 +1,36 @@
+@use 'variables' as v;
+@use 'sass:list';
+@use 'sass:map';
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-family: v.$font-family-headings;
+    font-size: map.get(list.nth(v.$heading-styles, $i), "size");
+    line-height: map.get(list.nth(v.$heading-styles, $i), "height");
+  }
+}
+
+a {
+  &:link, &:visited {
+    text-decoration: underline;
+    color: v.$text-color;
+  }
+  &:hover, &:focus {
+    text-decoration: none;
+    color: v.$text-color-lighter;
+  }
+  &:active {
+    text-decoration: underline;
+    color: v.$text-color-lighter;
+  }
+}
+
+ul, ol {
+  &.unstyled {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+    }
+  }
+}

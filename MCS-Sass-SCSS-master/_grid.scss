@@ -1,0 +1,59 @@
+@use 'variables' as v;
+@use 'sass:list';
+@use 'sass:string';
+
+.container {
+  margin: 0 auto;
+  max-width: v.$container-max-width;
+  padding: 0 2.0rem;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+  &.row-no-padding {
+    padding: 0;
+    > .column {
+      padding: 0;
+    }
+  }
+
+  .column {
+    display: block;
+    flex: 1 1 auto;
+    margin-left: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media (min-width: v.$mobile-breakpoint) {
+  .row {
+    $sizes: 10, 20, 25, 33, 40, 50, 60, 75, 80, 90;
+
+    flex-direction: row;
+    margin-left: -1.0rem;
+    width: calc(100% + 2.0rem);
+
+    .column {
+      margin-bottom: inherit;
+      padding: 0 1.0rem;
+      
+      @each $size in $sizes {
+        $current-size: string.unquote($size + "%");
+
+        &.column-offset-#{$size} {
+          margin-left: $current-size;
+        }
+
+        &.column-#{$size} {
+          flex: 0 0 $current-size;
+          max-width: $current-size;
+        }
+      }
+    }
+  }
+}

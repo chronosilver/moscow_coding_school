@@ -1,0 +1,17 @@
+@use 'sass:color';
+
+$base-font-size: 14px !default;
+$base-font-size-mobile: 11px !default;
+$mobile-breakpoint: 40rem !default;
+$font-family: 'Arial', sans-serif !default;
+$font-family-headings: 'Georgia', serif !default;
+$text-color: #292929 !default;
+$text-color-lighter: color.scale($text-color, $lightness: 10%) !default;
+$container-max-width: 112.0rem !default;
+
+$heading-styles: ("size": 4.6rem, "height": 1.2),
+("size": 3.6rem, "height": 1.25),
+("size": 2.8rem, "height": 1.3),
+("size": 2.2rem, "height": 1.35),
+("size": 1.8rem, "height": 1.5),
+("size": 1.6rem, "height": 1.4) !default;

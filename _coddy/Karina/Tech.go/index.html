@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize и CSS - файлы -->
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- Заголовок страницы -->
+    <title>Tech.go</title>
+</head>
+<body class="body">
+    <header class="header">
+        <a href="#" class="logo">Tech<span>.go</span></a>
+        <a href="#" class="profile"></a>
+    </header>
+    
+    <main class="main">
+        <img class="vektor" src="images/vector.png" alt="">
+        <section class="gallery-section">
+            <ul class="gallery-section-ul">
+                <li><img class="main-image big" src="images/img3333.jpg" width="645px"></li>
+                <li><img class="extra-image small1" src="images/alaska_trip.png" width="195px"></li>
+                <li><img class="extra-image small2" src="images/img3.png" width="195px"></li>
+                <li><img class="extra-image small3" src="images/img4.png" width="195px"></li>
+            </ul>
+            
+            <div class="gallery-div">
+                <h2>Snow Forest</h2>
+                <p class="gallery-div-text">Taste the cold and beauty of the Russian forest in winter.</p>
+                <p class="gallery-div-text">Taste the cold and beauty of the Russian forest in winter.</p>
+                <img class="place-img" src="images/place.png" width="24px">
+                <p class="place">Camchatka, Russia</p>
+                
+                <div class="select">
+                    <div class="date">
+                        <img class="calendar-round" src="images/round.png" width="20px" height="20px">
+                        <img class="calendar-img" src="images/calendar.png" width="12px" height="12px">
+                        <button class="date-button">Date</button>
+                        <p>Choose date</p>
+                        <img class="vektor-bottom" src="images/vector-bottom.png" alt="" width="11px">
+                    </div>
+
+                    <img class="button-line" src="images/button_line.png" height="66px">
+                    <img class="people-round" src="images/round.png" width="20px" height="20px">
+                    <img class="people-img" src="images/place_pin.png" width="9px" height="12px"></img>
+                    <div class="people">
+                    <button class="people-button">People</button>
+                    <div class="frame">
+                        <div class="frame-center frame-container">
+                              <div class="frame-button col col-1">
+                                  <button id="minus-btn">-</button>
+                              </div>
+                              <div class="number col col-2">
+                                  <h1 id="count">Add people</h1>
+                              </div>
+                              <div class="frame-button col col-1">
+                                  <button id="plus-btn">+</button>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+                </div>
+                <button class="button make-tour">Make My Tour</button>
+            </div>
+        </section>
+
+        <section class="recent-viewed">
+            <h3>Recent Viewed</h3>
+            <div class="">
+            <ul class="recent-viewed-ul slider">
+                <li class="slide">
+                    <img src="images/snow_forest.png" width="220px">
+                    <h4>Snow Hills</h4>
+                    <img class="place-img" src="images/place.png" width="16px">
+                    <p class="place">Carpati., Ukraine</p>
+                    <img class="coin-img" src="images/coin.png">
+                    <p class="coin">75<span> / person</span></p>
+                </li>
+                <li class="slide">
+                    <img src="images/snow_forest.png" width="220px">
+                    <h4>Snow Forest</h4>
+                    <img class="place-img" src="images/place.png" width="16px">
+                    <p class="place">Camchat., Russia</p>
+                    <img class="coin-img" src="images/coin.png">
+                    <p class="coin">75<span> / person</span></p>
+                </li>
+                <li class="slide">
+                    <img src="images/snow_forest.png" width="220px">
+                    <h4>Alaska Trip</h4>
+                    <img  class="place-img" src="images/place.png" width="16px">
+                    <p class="place">Alaska, USA</p>
+                    <img class="coin-img" src="images/coin.png">
+                    <p class="coin">75<span> / person</span></p>
+                </li>
+                <li class="slide">
+                    <img src="images/snow_forest.png" width="220px">
+                    <h4>Sea Horizon</h4>
+                    <img class="place-img" src="images/place.png" width="16px">
+                    <p class="place">Bali, Indonesia</p>
+                    <img class="coin-img" src="images/coin.png">
+                    <p class="coin">75<span> / person</span></p>
+                </li>
+                <li class="slide">
+                    <img src="images/snow_forest.png" width="220px">
+                    <h4>Tokyo Temple</h4>
+                    <img class="place-img" src="images/place.png" width="16px">
+                    <p class="place">Tokyo, Japan</p>
+                    <img class="coin-img" src="images/coin.png">
+                    <p class="coin">75<span> / person</span></p>
+                </li>
+                <li class="slide">
+                    <img src="images/snow_forest.png" width="220px">
+                    <h4>Tokyo Temple</h4>
+                    <img class="place-img" src="images/place.png" width="16px">
+                    <p class="place">Tokyo, Japan</p>
+                    <img class="coin-img" src="images/coin.png">
+                    <p class="coin">75<span> / person</span></p>
+                </li>
+                <li class="slide">
+                    <img src="images/snow_forest.png" width="220px">
+                    <h4>Tokyo Temple</h4>
+                    <img class="place-img" src="images/place.png" width="16px">
+                    <p class="place">Tokyo, Japan</p>
+                    <img class="coin-img" src="images/coin.png">
+                    <p class="coin">75<span> / person</span></p>
+                </li>
+                <li class="slide">
+                    <img src="images/snow_forest.png" width="220px">
+                    <h4>Tokyo Temple</h4>
+                    <img class="place-img" src="images/place.png" width="16px">
+                    <p class="place">Tokyo, Japan</p>
+                    <img class="coin-img" src="images/coin.png">
+                    <p class="coin">75<span> / person</span></p>
+                </li>
+            </ul>
+        </div>
+        </section>
+
+        <section class="recommendation">
+            <h3>Recommendation</h3>
+            <ul class="recommendation-ul">
+                <li class="recommendation-li li-open">
+                    <img src="images/img3.png" width="220px" height="160px">
+                    <h4>The Grand Canyon</h4>
+                    <p class="recommendation-ul-text">The biggest and the most beautiful canyon in the world</p>
+                    <img class="place-img" src="images/place.png" width="16px">
+                    <p class="place">Arizona, USA</p>
+                    <img class="coin-more-number" src="images/coin.png">
+                    <p class="coin">150<span> / person</span></p>
+                    <button class="li-button open-btn">Book trip now</button>
+                </li>
+               
+                <li class="recommendation-li">
+                    <img src="images/img3.png" width="220px" height="160px">
+                    <h4>New York, WTC</h4>
+                    <p class="recommendation-ul-text">The highest point of the New York. One of the centers of world trade</p>
+                    <img class="place-img" src="images/place.png" width="16px">
+                    <p class="place">NYC, USA</p>
+                    <img class="coin-more-number" src="images/coin.png">
+                    <p class="coin">180<span> / person</span></p>
+                </li>
+                <li class="recommendation-li">
+                    <img src="images/img3.png" width="220px" height="160px">
+                    <h4>Bali Beaches</h4>
+                    <p class="recommendation-ul-text">Amazing views from the cleanest beaches in the worlds</p>
+                    <img class="place-img" src="images/place.png" width="16px">
+                    <p class="place">Bali, Indonesia</p>
+                    <img class="coin-img" src="images/coin.png">
+                    <p class="coin">90<span> / person</span></p>
+                </li>
+                <li class="recommendation-li">
+                    <img src="images/img3.png" width="220px" height="160px">
+                    <h4>Snow Hills</h4>
+                    <p class="recommendation-ul-text">Great skiing opportunity with a beautiful view</p>
+                    <img class="place-img" src="images/place.png" width="16px">
+                    <p class="place-ukr">Carpati., Ukraine</p>
+                    <img class="coin-img" src="images/coin.png">
+                    <p class="coin">75<span> / person</span></p>
+                </li>
+                <li class="recommendation-li">
+                    <img src="images/img3.png" width="220px" height="160px">
+                    <h4>Tokyo Temples</h4>
+                    <p class="recommendation-ul-text">Great opportunity to explore traditional Japanese culture</p>
+                    <img class="place-img" src="images/place.png" width="16px">
+                    <p class="place">Tokyo, Japan</p>
+                    <img class="coin-more-number" src="images/coin.png">
+                    <p class="coin">120<span> / person</span></p>
+                </li>
+                <li class="recommendation-li">
+                    <img src="images/img3.png" width="220px" height="160px">
+                    <h4>Cappadocia</h4>
+                    <p class="recommendation-ul-text">The biggest balloon show in the world in the world</p>
+                    <img class="place-img" src="images/place.png" width="16px">
+                    <p class="place">Cappad.,Turkey</p>
+                    <img class="coin-img" src="images/coin.png">
+                    <p class="coin">70<span> / person</span></p>
+                </li>
+                <li class="recommendation-li">
+                    <img src="images/img3.png" width="220px" height="160px">
+                    <h4>Snow Hills</h4>
+                    <p class="recommendation-ul-text">Great skiing opportunity with a beautiful view</p>
+                    <img class="place-img" src="images/place.png" width="16px">
+                    <p class="place-ukr">Carpati., Ukraine</p>
+                    <img class="coin-img" src="images/coin.png">
+                    <p class="coin">75<span> / person</span></p>
+                </li>
+                <li class="recommendation-li">
+                    <img src="images/img3.png" width="220px" height="160px">
+                    <h4>Aсkerman Fortress</h4>
+                    <p class="recommendation-ul-text">The oldest Black Sea fortress with a rich history</p>
+                    <img class="place-img" src="images/place.png" width="16px">
+                    <p class="place">Odesa, Ukraine</p>
+                    <img class="coin-img" src="images/coin.png">
+                    <p class="coin">40<span> / person</span></p>
+                </li>
+            </ul>
+        </section>
+
+        <button class="button view-more">View More</button>
+    </main>
+
+    <section class="calendar">
+        <div class="box">
+            <div class="container">
+                <div id="dycalendar"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-div">
+            <a href="#" class="logo">Tech<span>.go</span></a>
+            <p class="footer-div-text">Enjoy by triping with Techgo.</p>
+            <ul class="social-ul">
+                <li><img src="images/facebook.png" width="36px" alt="facebook"></li>
+                <li><img src="images/telegram.png" width="36px" alt="telegram"></li>
+                <li><img src="images/instagram.png" width="36px" alt="instagram"></li>
+            </ul>
+        </div>
+
+        <ul>
+            <h4>Menu</h4>
+            <li><a href="">Home</a></li>
+            <li><a href="">Tours</a></li>
+            <li><a href="">Category</a></li>
+            <li><a href="">About Us</a></li>
+        </ul>
+
+        <ul>
+            <h4>Booking Plan</h4>
+            <li><a href="">Personal Trip</a></li>
+            <li><a href="">Group Trip</a></li>
+        </ul>
+
+        <ul>
+            <h4>Support</h4>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
+        </ul>
+
+        <ul>
+            <h4>Get App</h4>
+            <li><a href="">Google Play Store</a></li>
+            <li><a href="">App Store</a></li>
+            <li><a href="">Other Stores</a></li>
+        </ul>
+    </footer>
+    <footer>
+        <p class="copyright">2022 (c) — Techgo. All Rights Reserved</p>
+    </footer>
+
+    <script src="js/button.js"></script>
+    <script src="card.js"></script>
+    <script src="top_gallery.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/counter.js"></script>
+
+
+    <script src="calendar.js"></script>
+
+
+    <script>
+    dycalendar.draw({
+      target: '#dycalendar',
+      type: 'month',
+      dayformat: 'full',
+      monthformat: 'full',
+      highlighttargetdate: true,
+      prevnextbutton: 'show',
+    })
+  </script>
+</body>
+</html>

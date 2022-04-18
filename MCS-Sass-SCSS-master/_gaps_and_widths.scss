@@ -1,0 +1,20 @@
+@use 'sass:string';
+
+$widths: 100, 70, 50, 30, 10;
+
+@each $width in $widths {
+  .w-#{$width} {
+    width: string.unquote($width + "%");
+  }
+}
+
+@for $i from 0 through 3 {
+  $margin: if($i == 0, $i, string.unquote($i + "rem"));
+
+  .mt-#{$i} {
+    margin-top: $margin;
+  }
+  .mb-#{$i} {
+    margin-bottom: $margin;
+  }
+}

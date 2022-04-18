@@ -523,22 +523,38 @@ select {
   }
 
   .basket__price {
-    padding: 15px 0 0;
+    padding: 15px 0 0 45px;
     text-align: center;
   }
 
   .basket__total {
-    padding: 0 0 10px 0;
+    padding: 20px 0 10px 0;
     text-align: center;
     display: block;
   }
   .buttons {
     display: block;
     margin: 0 50px;
+    text-align: center;
   }
 
   .Btn {
     padding: 15px 25px;
+  }
+
+  .basket__number {
+    padding: 0 10px 0 20px;
+    text-align: center;
+  }
+
+  .basket__price,
+  .basket__number,
+  .basket__cancel {
+    display: inline-block;
+  }
+
+  .basket__cancel {
+    padding: 0 0 0 40px;
   }
 }
 /* ----------- iPhone 6, 7, 8 ----------- */
@@ -604,22 +620,37 @@ select {
   }
 
   .basket__price {
-    padding: 15px 0 0;
+    padding: 15px 0 0 45px;
     text-align: center;
   }
 
   .basket__total {
-    padding: 0 0 10px 0;
+    padding: 20px 0 10px 0;
     text-align: center;
     display: block;
   }
   .buttons {
     display: block;
     margin: 0 50px;
+    text-align: center;
   }
 
   .Btn {
     padding: 15px 25px;
+  }
+
+  .basket__number {
+    padding: 0 10px 0 20px;
+    text-align: center;
+  }
+
+  .basket__price,
+  .basket__number,
+  .basket__cancel {
+    display: inline-block;
+  }
+  .basket__cancel {
+    padding: 0 0 0 40px;
   }
 }
 
@@ -688,21 +719,36 @@ select {
   }
 
   .basket__price {
-    padding: 15px 0 0;
+    padding: 15px 0 0 45px;
     text-align: center;
   }
 
   .basket__total {
-    padding: 0 0 10px 0;
+    padding: 20px 0 10px 0;
     text-align: center;
     display: block;
   }
   .buttons {
     display: block;
     margin: 0 50px;
+    text-align: center;
   }
 
   .Btn {
     padding: 15px 25px;
+  }
+
+  .basket__number {
+    padding: 0 10px 0 20px;
+    text-align: center;
+  }
+
+  .basket__price,
+  .basket__number,
+  .basket__cancel {
+    display: inline-block;
+  }
+  .basket__cancel {
+    padding: 0 0 0 40px;
   }
 }

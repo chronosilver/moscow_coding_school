@@ -1,0 +1,23 @@
+@use 'variables' as v;
+
+* {
+  &, &:after, &:before {
+    box-sizing: inherit;
+  }
+}
+
+html {
+  box-sizing: border-box;
+  font-size: v.$base-font-size;
+  @media (max-width: v.$mobile-breakpoint) {
+    & {
+      font-size: v.$base-font-size-mobile;
+    }
+  }
+}
+
+body {
+  color: v.$text-color;
+  font-family: v.$font-family;
+  line-height: 1.6;
+}

@@ -1,0 +1,12 @@
+@use 'framework' with (
+  $font-family: ('IBM Plex Mono', monospace),
+  $font-family-headings: ('Press Start 2P', cursive)
+);
+
+html {
+  background-image: linear-gradient(#F0FFF0 0%,
+  rgba(245, 255, 250, 0.78) 39.58%,
+  rgba(255, 228, 196, 0.5885) 63.02%,
+  #FF6347 100%);
+  background-attachment: fixed;
+}

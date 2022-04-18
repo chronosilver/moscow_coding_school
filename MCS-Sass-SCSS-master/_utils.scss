@@ -1,0 +1,23 @@
+@use 'variables' as v;
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: v.$mobile-breakpoint) {
+  .text-small-center {
+    text-align: center;
+  }
+}
+
+.text-right {
+  text-align: right;
+}
+
+.valign-center {
+  align-items: center;
+}
+
+.text-larger {
+  font-size: 1.5rem;
+}

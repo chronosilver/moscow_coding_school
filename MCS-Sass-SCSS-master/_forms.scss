@@ -1,0 +1,43 @@
+@use 'variables' as v;
+
+.custom-input {
+  font-family: v.$font-family;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+  color: v.$text-color;
+  padding: 0.5rem;
+  border: 1px solid v.$text-color;
+  box-shadow: 0 2px 3px v.$text-color;
+  text-transform: uppercase;
+}
+
+.custom-label {
+  width: 100%;
+  font-size: 1.5rem;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.btn {
+  font-family: v.$font-family-headings;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: v.$text-color;
+  color: #fff;
+  padding: 0.8rem 0.5rem 0.5rem 0.5rem;
+  border: 1px solid #fff;
+  box-shadow: 0 2px 3px v.$text-color;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
+    background-color: v.$text-color-lighter;
+  }
+  
+  &:active {
+    border-color: v.$text-color;
+    box-shadow: 0 4px 5px v.$text-color-lighter;
+  }
+}
+
