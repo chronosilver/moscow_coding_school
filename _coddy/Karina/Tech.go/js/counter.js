@@ -9,7 +9,6 @@ function Counter() {
     area.innerHTML = count
     if (count <= 0) {
       area.innerHTML = 'Add people'
-      console.log('men')
     }
   })
 

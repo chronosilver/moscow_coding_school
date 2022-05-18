@@ -1,0 +1,38 @@
+.page {
+  width: 800px;
+  margin: 20px auto;
+  border: 40px solid aquamarine;
+}
+
+.header {
+  background-color: rgb(81, 219, 243);
+  color: white;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(137, 129, 255);
+  display: inline-block;
+  /* border: 2px solid black; */
+  padding: 5px 10px;
+}
+
+a:hover {
+  background-color: grey;
+  color: white;
+}
+
+.menu {
+  text-align: center;
+}

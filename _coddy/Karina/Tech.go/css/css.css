@@ -488,7 +488,7 @@ h3 {
 .coin-more-number {
   position: relative;
   top: 0;
-  right: 0;
+  right: 0px;
 }
 
 /* Second button */

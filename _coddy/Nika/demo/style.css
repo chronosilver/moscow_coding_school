@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+p {
+  font-size: 25px;
+  color: rgb(250, 227, 17);
+  border: 15px dotted cyan;
+  background-color: rgb(233, 39, 223);
+  /* padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px; */
+  padding: 20px 60px;
+  margin: 20px;
+}

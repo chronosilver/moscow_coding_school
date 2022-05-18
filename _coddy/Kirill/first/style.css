@@ -57,3 +57,7 @@ h3 {
 .uppercase {
   text-transform: uppercase;
 }
+
+.hover:hover {
+  color: pink;
+}
