@@ -1,0 +1,223 @@
+/* Необходимы знания flex and position */
+
+@keyframes moving {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 1200px;
+  }
+}
+
+@keyframes movingright {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 1200px;
+    background-color: lightyellow;
+  }
+}
+
+@keyframes povtor {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 1200px;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(99, 101, 204);
+}
+
+ul {
+  margin: 50px 0;
+  list-style: none;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  justify-items: center;
+}
+
+li {
+  width: 150px;
+  height: 25px;
+  border: 2px solid rgb(161, 161, 161);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  background-color: khaki;
+}
+
+/* hover animation menu */
+
+li:hover {
+  background-color: lawngreen;
+  color: khaki;
+}
+
+.logo {
+  margin: 30px 0;
+  padding: 20px 70px;
+  border: 2px solid rgb(161, 161, 161);
+  background-color: khaki;
+}
+
+/* main styles */
+
+.basicanimation,
+.mediumanimations {
+  border: 2px solid rgb(161, 161, 161);
+}
+
+.titlebasic {
+  text-align: center;
+  margin-top: 60px;
+}
+/* BASIC */
+
+.rotate {
+  margin: 70px auto;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(198, 51, 228);
+  transition: transform 2s linear;
+  transition-delay: -500ms;
+}
+
+.rotate:hover {
+  transform: rotate(90deg);
+}
+
+.scale {
+  margin: 70px auto;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(51, 228, 75);
+
+  transition: transform 2s linear;
+  transition-delay: -500ms;
+}
+
+.scale:hover {
+  transform: scale(1.5);
+}
+
+.translate {
+  margin: 70px auto;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(228, 101, 51);
+
+  transition: transform 2s linear;
+  transition-delay: -500ms;
+}
+
+.translate:hover {
+  transform: translateX(300px);
+}
+
+/* MEDIUM */
+
+.leftright {
+  margin: 70px 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(198, 51, 228);
+  border-radius: 50%;
+
+  position: relative;
+  left: 0;
+
+  animation-name: moving;
+  animation-duration: 2s;
+
+  animation-iteration-count: infinite; /* бесконечный повтор анимации */
+}
+
+.left {
+  margin: 70px 0;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(51, 228, 75);
+  border-radius: 50%;
+
+  position: relative;
+  left: 0;
+
+  animation-name: movingright;
+  animation-duration: 5s;
+
+  animation-iteration-count: infinite; /* бесконечный повтор анимации */
+}
+
+.cikl {
+  margin: 70px 0;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(228, 101, 51);
+  border-radius: 50%;
+
+  position: relative;
+  left: 0;
+
+  animation-name: povtor;
+  animation-duration: 3s;
+
+  animation-iteration-count: infinite; /* бесконечный повтор анимации */
+
+  animation-direction: alternate; /* анимация проигрывается с начала до конца и обратно*/
+}
+
+/* HARD */
+
+.page {
+  /* эти единицы измерения мы изучим чуть позже */
+  height: 900px;
+  background-image: url(https://raw.githubusercontent.com/matthewbryancurtis/aframe-star-system-component/HEAD/screenshot.png);
+  display: flex;
+  position: relative;
+}
+.sun {
+  width: 300px;
+  height: 300px;
+  background-image: url(img/sunpng.png);
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+.earth {
+  width: 400px;
+  height: 400px;
+  background-image: url(https://cdn.pixabay.com/photo/2019/07/24/18/58/earth-4360974_960_720.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -200px;
+  /* вызовите вашу анимацию здесь */
+}

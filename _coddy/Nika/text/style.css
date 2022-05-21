@@ -1,0 +1,25 @@
+@import url(reset.css);
+
+p {
+  background-color: rgb(5, 207, 89);
+  border: 5px solid blue;
+  padding: 30px 80px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 25px;
+}
+
+span {
+  color: red;
+}
+
+.ye {
+  color: yellow;
+}
+
+b:hover {
+  color: yellow;
+}
