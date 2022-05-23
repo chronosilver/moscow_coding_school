@@ -1,0 +1,25 @@
+body {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.header {
+  background-color: chartreuse;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 19px;
+  color: coral;
+  font-weight: lighter;
+  margin: 0;
+  padding-bottom: 20px;
+}
