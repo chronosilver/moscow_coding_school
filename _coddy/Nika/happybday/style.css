@@ -1,0 +1,15 @@
+body {
+  background-color: aqua;
+}
+p {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+  transition-duration: 2s;
+}
+
+p:hover {
+  color: yellow;
+  transform: scale(2);
+}

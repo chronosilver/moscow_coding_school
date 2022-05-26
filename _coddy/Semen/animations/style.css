@@ -1,0 +1,40 @@
+@keyframes colorrr {
+  from {
+    top: 0;
+  }
+  to {
+    top: 1200px;
+  }
+}
+
+.scale {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(233, 255, 34);
+  margin: 0 auto;
+  /* transition-delay: 2s; задержка перед началом анимации */
+  transition-duration: 12s; /* длительность анимации, ее плавность*/
+}
+
+.scale:hover {
+  transform: scale(2);
+  background-color: cyan;
+}
+
+.key {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: cyan;
+  margin: 0 auto;
+  margin-top: 200px;
+  position: relative;
+
+  animation-name: colorrr;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+}
+
+body {
+  height: 2500px;
+}
