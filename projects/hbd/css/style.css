@@ -175,3 +175,9 @@ a {
 a:hover {
   opacity: 1;
 }
+
+@media screen and (max-width: 640px) {
+  .main {
+    width: 400px;
+  }
+}

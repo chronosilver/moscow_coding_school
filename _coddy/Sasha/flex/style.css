@@ -1,0 +1,39 @@
+header,
+footer {
+  height: 70px;
+  background-color: rgb(59, 133, 146);
+  margin: 40px 0;
+}
+
+body {
+  color: white;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+aside {
+  height: 600px;
+  width: 300px;
+  background-color: rgb(83, 228, 69);
+}
+
+article {
+  height: 600px;
+  width: 700px;
+  background-color: rgb(224, 174, 37);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(68, 207, 241);
+  margin-bottom: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
