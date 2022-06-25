@@ -1,0 +1,13 @@
+header {
+  background-color: rgb(169, 255, 56);
+}
+
+main {
+  background-color: rgb(67, 46, 255);
+  height: 25000px;
+}
+
+footer {
+  background-color: rgb(252, 255, 57);
+  height: 1000px;
+}
