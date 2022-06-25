@@ -159,6 +159,10 @@ body {
   .slide a {
     font-size: 17px;
   }
+
+  .aboutText {
+    margin: 20px 30px;
+  }
   .header {
     margin: 10px 0 0 0;
   }
@@ -199,5 +203,8 @@ body {
 
   .slide a {
     font-size: 17px;
+  }
+  .aboutText {
+    margin: 20px 30px;
   }
 }
