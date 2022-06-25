@@ -151,6 +151,14 @@ body {
     margin: 0 10px;
   }
 
+  .menu li,
+  li a {
+    font-size: 15px;
+  }
+
+  .slide a {
+    font-size: 17px;
+  }
   .header {
     margin: 10px 0 0 0;
   }
