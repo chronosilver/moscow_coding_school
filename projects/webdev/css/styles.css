@@ -16,6 +16,16 @@
     left: 1500px;
   }
 }
+
+@keyframes moving__mobile {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 370px;
+  }
+}
 * {
   box-sizing: border-box;
   letter-spacing: 2px;
@@ -206,5 +216,18 @@ body {
   }
   .aboutText {
     margin: 20px 30px;
+  }
+
+  .ig {
+    display: block;
+    position: relative;
+    left: 0;
+
+    animation-name: moving__mobile;
+    animation-duration: 12s;
+
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition-timing-function: cubic-bezier(1, 0.12, 0.39, 0.77);
   }
 }
