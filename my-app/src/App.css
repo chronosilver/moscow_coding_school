@@ -1,0 +1,91 @@
+@keyframes moving {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 900px;
+  }
+}
+.App {
+  text-align: center;
+}
+/* my */
+
+#root {
+  text-align: center;
+}
+.basket {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+}
+
+.Btn {
+  width: 300px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: inherit;
+  cursor: pointer;
+}
+.Btn:hover {
+  background-color: rgb(109, 109, 109);
+}
+
+.inst {
+  margin: 20px 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3 {
+  font-weight: 300;
+  margin: 10px 0 0;
+}
+
+.basket__flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.basket__right {
+  position: relative;
+  width: 300px;
+  left: 900px;
+}
+.footer {
+  width: 100px;
+}
+.total {
+  text-align: right;
+}
+
+.footer__anim {
+  text-align: left;
+  display: block;
+  position: relative;
+  left: 0;
+
+  animation-name: moving;
+  animation-duration: 12s;
+
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition-timing-function: cubic-bezier(1, 0.12, 0.39, 0.77);
+}
+
+.item__basket {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

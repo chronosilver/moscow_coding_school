@@ -97,3 +97,13 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.container {
+  border: 25px groove orange;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
