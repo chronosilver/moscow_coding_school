@@ -1,7 +1,15 @@
+/* 
+селекто {
+  свойство: значение;
+} 
+*/
+.item {
+  background-color: rgb(179, 28, 28);
+}
 .item {
   width: 200px;
   height: 200px;
-  background-color: rgb(94, 255, 107);
+  background-color: rgb(72, 240, 86);
   margin: 20px;
 }
 

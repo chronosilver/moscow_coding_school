@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
