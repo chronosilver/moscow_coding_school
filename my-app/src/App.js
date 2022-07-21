@@ -25,14 +25,3 @@ function App() {
 }
 
 export default App
-
-// {
-//   /* <Shop /> */
-// }
-// ;<Basket />
-// {
-//   /* <About /> */
-// }
-
-// const root = document.querySelector('#root')
-//   render(<Header /> , root)

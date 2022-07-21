@@ -1,0 +1,18 @@
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  color: aqua;
+}
+
+li {
+  margin: 0 auto;
+  background-color: rgb(216, 57, 57);
+  padding: 40px;
+}
+
+a:hover {
+  color: rgb(37, 35, 196);
+}

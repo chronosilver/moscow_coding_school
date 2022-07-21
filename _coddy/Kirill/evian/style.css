@@ -8,3 +8,9 @@ ul {
   display: flex;
   list-style: none;
 }
+
+p {
+  font-size: 50px;
+  font-weight: normal;
+  color: #e50043;
+}
