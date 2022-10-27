@@ -1,6 +1,6 @@
 body {
   color: white;
-  background-image: url('https://248006.selcdn.ru/main/upload/setka_images/08234924102020_395ac55f9d2bdf7b2eaa249aca1918774fc91ed3.jpg');
+  /* background-image: url('https://248006.selcdn.ru/main/upload/setka_images/08234924102020_395ac55f9d2bdf7b2eaa249aca1918774fc91ed3.jpg'); */
   background-repeat: no-repeat;
   background-size: 1900px;
 }
@@ -11,11 +11,17 @@ body {
   /* border: 40px solid aquamarine; */
 }
 
-.header {
-  background-color: rgb(252, 198, 23);
+.first {
+  background-color: rgb(23, 244, 252);
   color: white;
   padding: 20px;
 }
+
+header.first {
+  background-color: rgb(252, 23, 23);
+}
+
+
 
 h1,
 h2 {
@@ -59,4 +65,8 @@ img {
   padding: 20px;
   margin: 30px 0;
   text-align: center;
+}
+
+.orange {
+  color:blue;
 }

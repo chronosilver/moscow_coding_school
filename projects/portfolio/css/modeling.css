@@ -98,6 +98,16 @@ body {
   display: flex;
 }
 
+.imgsabbat {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.imgsabbat img {
+  
+  height: 280px;
+}
 .img {
   display: flex;
 }
@@ -125,6 +135,8 @@ body {
   width: 600px;
   padding-bottom: 40px;
 }
+
+
 /* Animations */
 
 .slide-in-top {

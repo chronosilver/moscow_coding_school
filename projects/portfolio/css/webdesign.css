@@ -38,10 +38,14 @@ body {
   margin: 0;
 }
 
+.main {
+  display: flex;
+}
 .frame {
-  width: 100vw;
-  height: 1200px;
-  /*margin: 0 30px;*/
+  width: 95vw;
+  height: 8200px;
+  margin: 0 auto;
+ 
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {

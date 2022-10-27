@@ -1,17 +1,17 @@
-.one {
-  color: red;
-  width: 200px;
-  display: inline-block;
+body {
+  background-color: rgb(21, 253, 21);
 }
 
-.two {
-  color: blue;
-  width: 200px;
-  display: inline-block;
+
+.square {
+
+  height: 250px;
+  width: 250px;
+  background-color: inherit;
+  margin: 20px;
+}
+.flex {
+  display: flex;
 }
 
-.three {
-  color: blue;
-  width: 200px;
-  display: block;
-}
+

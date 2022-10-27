@@ -9,15 +9,35 @@ const colors = [
   '#ff4e6b',
 ]
 
+
+
+
 for (let i = 0; i < number; i++) {
   const square = document.createElement('div')
+  const btn = document.querySelector('#button')
+
   square.classList.add('square')
+
+
+
+  
+  
+  
+ 
 
   square.addEventListener('mouseover', setColor)
 
   square.addEventListener('mouseleave', removeColor)
 
+  square.addEventListener('click', setColor)
+   
+
+ 
   board.append(square)
+  btn.addEventListener('click', function pushButton() { 
+    square.classList.add('transition_one')
+   
+  })
 }
 
 function setColor(event) {
@@ -36,3 +56,5 @@ function removeColor(event) {
 function getRandomColor() {
   return colors[Math.floor(Math.random() * colors.length)]
 }
+
+

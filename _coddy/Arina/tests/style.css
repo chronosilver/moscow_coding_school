@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Cormorant SC', serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+h1 {
+  text-align: center;
+}
+
+.box {
+  height: 400px;
+  width: 400px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/9/98/Mickey_Mouse_in_Steamboat_Willie%2C_1928.jpg/280px-Mickey_Mouse_in_Steamboat_Willie%2C_1928.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.text {
+  width: 900px;
+  text-align: center;
+  margin: 160px auto;
+  background-color: aquamarine;
+
+  border: 15px solid yellow;
+  padding: 20px;
+}
+
+.text:hover {
+  font-size: 20px;
+}
