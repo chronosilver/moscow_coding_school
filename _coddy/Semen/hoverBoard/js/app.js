@@ -23,20 +23,18 @@ for (let i = 0; i < number; i++) {
   
   
   
- 
+
 
   square.addEventListener('mouseover', setColor)
 
   square.addEventListener('mouseleave', removeColor)
 
   square.addEventListener('click', setColor)
-   
 
- 
   board.append(square)
   btn.addEventListener('click', function pushButton() { 
-    square.classList.add('transition_one')
-   
+  square.classList.add('transition_one')
+
   })
 }
 

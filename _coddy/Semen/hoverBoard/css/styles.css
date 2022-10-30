@@ -17,6 +17,7 @@ body {
   align-items: center;
   max-width: 800px;
   flex-wrap: wrap;
+  margin-top: 130px;
 }
 
 .square {
@@ -33,16 +34,33 @@ body {
 }
 
 .goose {
-  width: 100px;
+  width: 300px;
   height: 50px;
   position: absolute;
   top: 50px;
   z-index: 1;
-  background-color: rgb(89, 250, 68);
+  
+  /* background-color: rgb(89, 250, 68); */
+}
+
+.goose input {
+  width: 90px;
+  height: 90px;
+  background-color: rgb(67, 196, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 20px;
+ 
+}
+
+
+.goose input:active {
+  background-color: rgb(208, 255, 37);
 }
 
 .transition_one {
-  transition: 10s ease;
+  transition: 50s ease;
 }
 
 .transition_three {
